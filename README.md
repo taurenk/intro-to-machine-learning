@@ -8,12 +8,19 @@ Introduction to machine learning with Python
 
 ## General Terms
 
-- label:
-- class:
-- generalization: model is able to make accurate predictions on unseen data
-- Overfitting: Building a model that is too complicated. Usually, one focuses too much
+- `class`: names for different outputs
+- `label`: class for a particular data point
+- `generalization`: model is able to make accurate predictions on unseen data
+- `Overfitting`: Building a model that is too complicated. Usually, one focuses too much
   on individual data points in the training set and does not generalize well.
-- Underfitting: Building a model that is too simple
+- `Underfitting`: Building a model that is too simple
+
+### Conventions
+
+`f(X) = y`:
+
+- `X`: Capital X, some data. Typically in math X refers to a 2D Array
+- `y`: lower case Y -> Labels. Typically in math y refers to a vector (1D array)
 
 ## Supervised ML problems
 
